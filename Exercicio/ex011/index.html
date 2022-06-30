@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias Sociais</title>
+</head>
+<body>
+
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir em diversos dispositivos</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem pequena">
+    </picture>
+
+    <h1>Reprodução de áudio</h1>
+    <p>Reprodução de audio</p>
+
+        <audio preload="auto" loop controls src="media/ponderosa_twins_plus_one_bound_mp3_64008.mp3"></audio>
+
+        <video controls src="videos/pexels-serkan-bayraktar-8214649.m4v"></video>
+</body>
+</html>

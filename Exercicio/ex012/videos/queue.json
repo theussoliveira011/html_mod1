@@ -1,0 +1,496 @@
+[
+    {
+        "Job": {
+            "Audio": {
+                "AudioList": [
+                    {
+                        "Bitrate": 160,
+                        "CompressionLevel": -1.0,
+                        "DRC": 0.0,
+                        "DitherMethod": "auto",
+                        "Encoder": "av_aac",
+                        "Gain": 0.0,
+                        "Mixdown": "stereo",
+                        "NormalizeMixLevel": false,
+                        "PresetEncoder": "av_aac",
+                        "Quality": -3.0,
+                        "Samplerate": 0,
+                        "Track": 0
+                    },
+                    {
+                        "Bitrate": 640,
+                        "CompressionLevel": -1.0,
+                        "DRC": 0.0,
+                        "DitherMethod": "auto",
+                        "Encoder": "ac3",
+                        "Gain": 0.0,
+                        "Mixdown": "stereo",
+                        "NormalizeMixLevel": false,
+                        "PresetEncoder": "copy:ac3",
+                        "Quality": -3.0,
+                        "Samplerate": 0,
+                        "Track": 0
+                    }
+                ],
+                "CopyMask": [
+                    "copy:aac",
+                    "copy:ac3"
+                ],
+                "FallbackEncoder": "av_aac"
+            },
+            "Destination": {
+                "AlignAVStart": true,
+                "ChapterList": [
+                    {
+                        "Duration": {
+                            "Hours": 0,
+                            "Minutes": 0,
+                            "Seconds": 2,
+                            "Ticks": 199649
+                        },
+                        "Name": ""
+                    }
+                ],
+                "ChapterMarkers": false,
+                "File": "/home/jefferson/Vídeos/pexels-serkan-bayraktar-8214649.m4v",
+                "InlineParameterSets": false,
+                "Mp4Options": {
+                    "IpodAtom": false,
+                    "Mp4Optimize": false
+                },
+                "Mux": "m4v"
+            },
+            "Filters": {
+                "FilterList": [
+                    {
+                        "ID": 3,
+                        "Settings": {
+                            "block-height": "16",
+                            "block-thresh": "40",
+                            "block-width": "16",
+                            "filter-mode": "2",
+                            "mode": "3",
+                            "motion-thresh": "1",
+                            "spatial-metric": "2",
+                            "spatial-thresh": "1"
+                        }
+                    },
+                    {
+                        "ID": 4,
+                        "Settings": {
+                            "mode": "7"
+                        }
+                    },
+                    {
+                        "ID": 6,
+                        "Settings": {
+                            "mode": 2,
+                            "rate": "27000000/900000"
+                        }
+                    },
+                    {
+                        "ID": 13,
+                        "Settings": {
+                            "crop-bottom": 0,
+                            "crop-left": 0,
+                            "crop-right": 0,
+                            "crop-top": 0,
+                            "height": 720,
+                            "width": 1080
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "Name": "pexels-serkan-bayraktar-8214649"
+            },
+            "PAR": {
+                "Den": 8,
+                "Num": 3
+            },
+            "SequenceID": 0,
+            "Source": {
+                "Angle": 0,
+                "Path": "/home/jefferson/Downloads/pexels-serkan-bayraktar-8214649.mp4",
+                "Range": {
+                    "End": 1,
+                    "Start": 1,
+                    "Type": "chapter"
+                },
+                "Title": 1
+            },
+            "Subtitle": {
+                "Search": {
+                    "Burn": true,
+                    "Default": false,
+                    "Enable": false,
+                    "Forced": false
+                },
+                "SubtitleList": []
+            },
+            "Video": {
+                "ChromaLocation": 1,
+                "ColorInputFormat": 0,
+                "ColorMatrix": 1,
+                "ColorOutputFormat": 0,
+                "ColorPrimaries": 1,
+                "ColorRange": 1,
+                "ColorTransfer": 1,
+                "Encoder": "x264",
+                "Level": "3.1",
+                "Options": "ref=5:bframes=5",
+                "Preset": "veryslow",
+                "Profile": "high",
+                "QSV": {
+                    "AdapterIndex": 0,
+                    "AsyncDepth": 0,
+                    "Decode": false
+                },
+                "Quality": 17.0,
+                "Tune": "",
+                "Turbo": false,
+                "TwoPass": false
+            }
+        },
+        "Title": {
+            "AngleCount": 1,
+            "AudioList": [
+                {
+                    "Attributes": {
+                        "AltCommentary": false,
+                        "Commentary": false,
+                        "Default": true,
+                        "Normal": false,
+                        "Secondary": false,
+                        "VisuallyImpaired": false
+                    },
+                    "BitRate": 253377,
+                    "ChannelCount": 2,
+                    "ChannelLayout": 3,
+                    "ChannelLayoutName": "stereo",
+                    "Codec": 65536,
+                    "CodecName": "aac",
+                    "CodecParam": 86018,
+                    "Description": "Unknown (AAC LC) (2.0 ch) (253 kbps)",
+                    "LFECount": 0,
+                    "Language": "Unknown",
+                    "LanguageCode": "und",
+                    "SampleRate": 48000,
+                    "TrackNumber": 1
+                }
+            ],
+            "ChapterList": [
+                {
+                    "Duration": {
+                        "Hours": 0,
+                        "Minutes": 0,
+                        "Seconds": 2,
+                        "Ticks": 199649
+                    },
+                    "Name": ""
+                }
+            ],
+            "Color": {
+                "ChromaLocation": 1,
+                "Format": 0,
+                "Matrix": 1,
+                "Primary": 1,
+                "Range": 1,
+                "Transfer": 1
+            },
+            "Container": "mov,mp4,m4a,3gp,3g2,mj2",
+            "Crop": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "Duration": {
+                "Hours": 0,
+                "Minutes": 0,
+                "Seconds": 2,
+                "Ticks": 199649
+            },
+            "FrameRate": {
+                "Den": 1080000,
+                "Num": 27000000
+            },
+            "Geometry": {
+                "Height": 1920,
+                "PAR": {
+                    "Den": 1,
+                    "Num": 1
+                },
+                "Width": 1080
+            },
+            "Index": 1,
+            "InterlaceDetected": false,
+            "Metadata": {},
+            "Name": "pexels-serkan-bayraktar-8214649",
+            "Path": "/home/jefferson/Downloads/pexels-serkan-bayraktar-8214649.mp4",
+            "Playlist": -1,
+            "SubtitleList": [],
+            "Type": 3,
+            "VideoCodec": "h264"
+        },
+        "uiSettings": {
+            "ActivityFilename": "/home/jefferson/.config/ghb/EncodeLogs/pexels-serkan-bayraktar-8214649 2022-06-23 12-12-58.log",
+            "AlignAVStart": true,
+            "AudioAllowAACPass": true,
+            "AudioAllowAC3Pass": true,
+            "AudioAllowDTSHDPass": false,
+            "AudioAllowDTSPass": false,
+            "AudioAllowEAC3Pass": false,
+            "AudioAllowFLACPass": false,
+            "AudioAllowMP2Pass": false,
+            "AudioAllowMP3Pass": false,
+            "AudioAllowTRUEHDPass": false,
+            "AudioBitrate": "192",
+            "AudioCopyMask": [
+                "copy:aac",
+                "copy:ac3"
+            ],
+            "AudioEncoder": "copy:ac3",
+            "AudioEncoderFallback": "av_aac",
+            "AudioLanguageList": [],
+            "AudioList": [
+                {
+                    "AudioBitrate": 160,
+                    "AudioCompressionLevel": -1.0,
+                    "AudioDitherMethod": "auto",
+                    "AudioEncoder": "av_aac",
+                    "AudioMixdown": "stereo",
+                    "AudioNormalizeMixLevel": false,
+                    "AudioSamplerate": "auto",
+                    "AudioTrackDRCSlider": 0.0,
+                    "AudioTrackGainSlider": 0.0,
+                    "AudioTrackQuality": 1.0,
+                    "AudioTrackQualityEnable": false
+                },
+                {
+                    "AudioBitrate": 640,
+                    "AudioCompressionLevel": -1.0,
+                    "AudioDitherMethod": "auto",
+                    "AudioEncoder": "copy:ac3",
+                    "AudioMixdown": "none",
+                    "AudioNormalizeMixLevel": false,
+                    "AudioSamplerate": "auto",
+                    "AudioTrackDRCSlider": 0.0,
+                    "AudioTrackGainSlider": 0.0,
+                    "AudioTrackQuality": -1.0,
+                    "AudioTrackQualityEnable": false
+                }
+            ],
+            "AudioMixdown": "dpl2",
+            "AudioSamplerate": "auto",
+            "AudioSecondaryEncoderMode": true,
+            "AudioTrack": "0",
+            "AudioTrackDRCSlider": 0.90000000000000002,
+            "AudioTrackDRCValue": "Desativado",
+            "AudioTrackGainSlider": 0.0,
+            "AudioTrackName": "",
+            "AudioTrackQuality": -1.0,
+            "AudioTrackQualityEnable": false,
+            "AudioTrackQualityValue": "-3",
+            "AudioTrackQualityX": -3.0,
+            "AudioTrackSelectionBehavior": "first",
+            "ChapterMarkers": true,
+            "ChildrenArray": [],
+            "Default": false,
+            "DisplayHeight": 720.0,
+            "FileFormat": "av_mp4",
+            "Folder": false,
+            "FolderOpen": false,
+            "ImportFile": null,
+            "ImportLanguage": "und",
+            "ImportOffset": 0.0,
+            "InlineParameterSets": false,
+            "MetaAlbumArtist": "",
+            "MetaArtist": "",
+            "MetaComment": "",
+            "MetaDescription": "",
+            "MetaGenre": "",
+            "MetaLongDescription": "",
+            "MetaName": "pexels-serkan-bayraktar-8214649",
+            "MetaReleaseDate": "",
+            "MetadataPassthrough": true,
+            "Mp4HttpOptimize": false,
+            "Mp4iPodCompatible": false,
+            "PictureAllowUpscaling": false,
+            "PictureAutoCrop": true,
+            "PictureBottomCrop": 0.0,
+            "PictureChromaSmoothCustom": "",
+            "PictureChromaSmoothPreset": "off",
+            "PictureChromaSmoothTune": "none",
+            "PictureColorspaceCustom": "",
+            "PictureColorspacePreset": "off",
+            "PictureCombDetectCustom": "",
+            "PictureCombDetectPreset": "default",
+            "PictureDARWidth": 405.0,
+            "PictureDeblockCustom": "strength=strong:thresh=20:blocksize=8",
+            "PictureDeblockPreset": "off",
+            "PictureDeblockTune": "medium",
+            "PictureDeinterlaceCustom": "",
+            "PictureDeinterlaceDecomb": false,
+            "PictureDeinterlaceFilter": "decomb",
+            "PictureDeinterlacePreset": "default",
+            "PictureDenoiseCustom": "",
+            "PictureDenoiseFilter": "off",
+            "PictureDenoisePreset": "",
+            "PictureDenoiseTune": "none",
+            "PictureDetelecine": "off",
+            "PictureDetelecineCustom": "",
+            "PictureForceHeight": 0,
+            "PictureForceWidth": 0,
+            "PictureHeight": 720.0,
+            "PictureItuPAR": false,
+            "PictureKeepRatio": true,
+            "PictureLeftCrop": 0.0,
+            "PictureLooseCrop": false,
+            "PictureModulus": 2,
+            "PicturePAR": "auto",
+            "PicturePARHeight": 8.0,
+            "PicturePARWidth": 3.0,
+            "PicturePadBottom": 0.0,
+            "PicturePadColor": "black",
+            "PicturePadLeft": 0.0,
+            "PicturePadMode": "none",
+            "PicturePadRight": 0.0,
+            "PicturePadTop": 0.0,
+            "PictureRightCrop": 0.0,
+            "PictureRotate": "angle=0:hflip=0",
+            "PictureSharpenCustom": "",
+            "PictureSharpenFilter": "off",
+            "PictureSharpenPreset": "",
+            "PictureSharpenTune": "",
+            "PictureTopCrop": 0.0,
+            "PictureUseMaximumSize": true,
+            "PictureWidth": 1280.0,
+            "Preferences": {
+                "ActivityFontSize": 8.0,
+                "AddCC": false,
+                "AutoScan": false,
+                "DiskFreeCheck": true,
+                "DiskFreeLimit": 2000.0,
+                "EncodeLogLocation": false,
+                "ExportDirectory": "/home/jefferson/Área de Trabalho",
+                "LogLongevity": "immortal",
+                "LoggingLevel": "1",
+                "MinTitleDuration": 10.0,
+                "PreferredLanguage": "und",
+                "RemoveFinishedJobs": false,
+                "SrtDir": "/home/jefferson/Vídeos",
+                "SyncTitleSettings": true,
+                "UseM4v": true,
+                "VideoQualityGranularity": "1",
+                "WhenComplete": "notify",
+                "allow_tweaks": false,
+                "auto_name": true,
+                "auto_name_template": "{source}",
+                "check_updates": "weekly",
+                "default_source": "/home/jefferson/Downloads/pexels-serkan-bayraktar-8214649.mp4",
+                "destination_dir": "/home/jefferson/Vídeos",
+                "hbfd": false,
+                "hbfd_feature": false,
+                "last_update_check": 0,
+                "live_duration": 15.0,
+                "preset_window_height": 1,
+                "preset_window_width": 1,
+                "preview_count": 10.0,
+                "preview_show_crop": false,
+                "preview_x": -1,
+                "preview_y": -1,
+                "reduce_hd_preview": true,
+                "update_skip_version": 0,
+                "use_dvdnav": true,
+                "version": "0.1",
+                "window_height": 843,
+                "window_width": 1000
+            },
+            "PreferredLanguage": "und",
+            "PresetCategory": "new",
+            "PresetDescription": "Super high quality H.264 video (up to 720p30), AAC stereo audio, and Dolby Digital (AC-3) surround audio, in an MP4 container.",
+            "PresetDisabled": false,
+            "PresetFullName": "/General/Super HQ 720p30 Surround",
+            "PresetName": "Super HQ 720p30 Surround",
+            "PtoPType": "chapter",
+            "QueueWhenComplete": "notify",
+            "SrtCodeset": "ISO-8859-1",
+            "SubtitleAddCC": false,
+            "SubtitleAddForeignAudioSearch": true,
+            "SubtitleAddForeignAudioSubtitle": false,
+            "SubtitleBurnBDSub": true,
+            "SubtitleBurnBehavior": "foreign",
+            "SubtitleBurnDVDSub": true,
+            "SubtitleLanguageList": [],
+            "SubtitleTrackSelectionBehavior": "none",
+            "Type": 0,
+            "UsesPictureFilters": true,
+            "VideoAvgBitrate": 7500.0,
+            "VideoColorMatrixCodeOverride": 0,
+            "VideoEncoder": "x264",
+            "VideoFramerate": "30",
+            "VideoFramerateCFR": false,
+            "VideoFramerateMode": "pfr",
+            "VideoFrameratePFR": true,
+            "VideoFramerateVFR": false,
+            "VideoGrayScale": false,
+            "VideoLevel": "3.1",
+            "VideoOptionExtra": "ref=5:bframes=5",
+            "VideoPreset": "veryslow",
+            "VideoPresetSlider": 8,
+            "VideoProfile": "high",
+            "VideoQSVDecode": false,
+            "VideoQualitySlider": 17,
+            "VideoQualityType": 2,
+            "VideoScaler": "swscale",
+            "VideoTune": "none",
+            "VideoTurboTwoPass": false,
+            "VideoTwoPass": true,
+            "WhenComplete": "notify",
+            "activity_location": "/home/jefferson/.config/ghb/Activity.log.6149",
+            "angle": 1.0,
+            "angle_count": 1,
+            "chapter_list": [],
+            "crop_mode": "auto",
+            "dest_dir": "/home/jefferson/Vídeos",
+            "dest_file": "pexels-serkan-bayraktar-8214649.m4v",
+            "destination": "/home/jefferson/Vídeos/pexels-serkan-bayraktar-8214649.m4v",
+            "end_point": 1.0,
+            "final_aspect_ratio": "1:1,78",
+            "final_storage_size": "1080 x 720",
+            "hflip": false,
+            "job_finish_time": 1655997185,
+            "job_pause_time_ms": 0,
+            "job_start_time": 1655997178,
+            "job_status": 4,
+            "job_unique_id": 1,
+            "preset_modified": false,
+            "preset_reload": false,
+            "preview_frame": 2,
+            "resolution_limit": "720p",
+            "rotate": "0",
+            "scale_height": 720.0,
+            "scale_width": 1080.0,
+            "single_title": 1.0,
+            "source": "/home/jefferson/Downloads/pexels-serkan-bayraktar-8214649.mp4",
+            "source_aspect_ratio": "0,56:1",
+            "source_display_size": "1080 x 1920",
+            "source_height": 1920,
+            "source_label": "pexels-serkan-bayraktar-8214649",
+            "source_storage_size": "1080 x 1920",
+            "source_width": 1080,
+            "start_frame": -1,
+            "start_point": 1.0,
+            "title": "1",
+            "title_selected": false,
+            "volume": "pexels-serkan-bayraktar-8214649",
+            "vquality_type_bitrate": false,
+            "vquality_type_constant": true,
+            "x264FastDecode": false,
+            "x264Option": "",
+            "x264UseAdvancedOptions": false,
+            "x264ZeroLatency": false
+        }
+    }
+]
